@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+.welcome{
+    margin-top:30px;
+}
+.login{
+    width:300px;
+    margin: 50px auto;
+    padding:15px;
+    box-shadow: 1px 1px 10px 1px rgb(85, 85, 85);
+}
+.login .login-brand{
+    color:rgb(44, 44, 44);
+    font-size: 24px;
+    margin-bottom:40px;
+    text-align: center;
+}
+.login .login-img{
+    max-width:150px;
+    margin:0 60px;
+}
+.form-content{
+    display: block;
+    width:100%;
+    margin:10px 0px;
+    height:40px;
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+.btn{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+}
+.btn-success{
+    background-color:rgb(53, 230, 53);
+}
+.container{
+    width: 80%;
+    margin:20px auto;
+    min-width: 480px;
+}
+.content{
+    min-height: 500px;
+}
+.footer{
+    display: block;
+    padding:10px;
+    width: 100%;
+    min-width: 480px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.text-center{
+    text-align: center;
+}
+.text-brand{
+    font-size: 24px;
+}
+.image-home img{
+    width:100%;
+    max-width:1350px;
+    min-width:480px;
+}
+.image-home p{
+    display:block;
+    text-align: center;
+    width:250px;
+    z-index: 9999;
+    position: relative;
+    top: -300px;
+    padding:10px;
+    border:1px solid black;
+    color:rgb(37, 236, 127);
+}
+.form{
+    border: 1px solid black;
+    width:500px;
+    margin:30px auto;
+    padding:30px;
+    border-radius: 8px;
+}
+.form .form-img{
+    max-width:150px;
+    margin:0 150px;
+}
+.form-brand{
+    font-size: 24px;
+}
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+table tr th,table tr td{
+    padding:10px;
+}
+.input-link{
+    text-decoration: none;
+    color:black;
+    text-align: left;
+}
+.input-link:hover{
+    color:rgb(90, 90, 90);
+}
+.news-textarea{
+    width: 100%;
+}
+@media screen and (max-width:480px){
+    [class*="col"]{
+        width: 100%;
+    }
+}

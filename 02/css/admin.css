@@ -1,0 +1,53 @@
+.head img{
+	width: 50px;
+	height: 50px;
+	padding: 10px 10px;
+	float: top;
+}
+
+.head {
+	background: #006400;
+	width: 96%;
+	height :10%;
+}
+
+.dashboard {
+	background: #32CD32;
+	float: left;
+	height: 1200px;
+	width: 22%;
+}
+
+.dashboard ul li{
+	display: block;
+	margin : 2px 2px 4px;
+
+}
+
+.dashboard ul li a{
+	color : white;
+	text-transform: uppercase;
+}
+
+.dashboard ul li a:hover{
+	background: #006400;
+
+}
+
+.konten {
+	padding-left: 50px;
+	padding-right: 30px;
+	background: white;
+	width: 900px;
+	height: 645px;
+	float: right;
+}
+
+		fieldset {
+			width: 300px;
+			height: 120px;
+		}
+
+		legend {
+			text-align: : center;
+		}

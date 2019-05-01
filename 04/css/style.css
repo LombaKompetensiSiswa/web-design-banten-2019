@@ -1,0 +1,410 @@
+body{
+	background:white;
+	font-family:Arial;
+	margin:0;
+	padding:0;
+}
+*{
+	max-width: 100%;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1400px;
+	margin:0 auto;
+	overflow: hidden;
+}
+ul,p,h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+.element-form{
+	margin-bottom: 10px;
+}
+.element-form label{
+	display:block;
+	margin: 5px 0;
+	font-size:1em;
+}
+.element-form input[type="text"],
+.element-form input[type="password"],
+.element-form select,
+.element-form textarea{
+	padding:10px;
+	width:100%;
+	border-radius:5px;
+	border:1px solid rgba(0,0,0,0.1);
+}
+.element-form span input{
+	width:auto;
+	padding:10px;
+	border-radius:5px;
+	border:1px solid rgba(0,0,0,0.1)
+
+}
+section.log{
+	margin:10% auto;
+}
+.content{
+	margin-top:0px;
+}
+.content .container{
+	display: grid;
+	grid-template-columns: 15% auto;
+}
+.content .container .left{
+	background:#101077;
+	height:100%;
+}
+.content .container .left ul li a{
+	display: block;
+	color:white;
+	padding:10px;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.content .container .left ul li a.active{
+	background:orange;
+}
+.content .container .right{
+	padding:10px;
+}
+section{
+	margin:10px 0;
+}
+.header{
+	background:#101077;
+	padding:15px 10px;
+	color:white;
+	width:100%;
+}
+.header .container{
+	display: flex;
+	align-items: center;
+}
+
+.header .container h2{
+	flex:1;
+	width:20%;
+}
+
+.quick{
+	justify-content: flex-end;
+	display: flex;
+	align-items: center
+}
+.header form{
+	display: flex;
+	width:50%;
+	align-items: center;
+	margin:0 10px;
+}
+.header form input[type="text"]{
+	padding:10px;
+	border:1px solid rgba(0,0,0,0.1);
+	width:100%;
+	border-radius:5px 0 0 5px;
+}
+.header form input[type="submit"]{
+	padding:10px;
+	border-radius:0 5px 5px 0;
+	border:1px solid orange;
+	background: orange;
+}
+.quick li{
+	padding:10px;
+}
+.log{
+	width:250px;
+	padding:20px;
+	border-radius:5px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+	background: white;
+	margin:auto;
+}
+header{
+	background:white;
+	padding:20px 10px;
+}
+header .container{
+	display: flex;
+	align-items: center;
+}
+.hoverac{
+	position: relative;
+	margin-right: 20px;
+}
+.account{
+	visibility: hidden;
+	width:200px;
+	height:100px;
+	padding:10px;
+	position: absolute;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.hoverac:hover .account{
+	visibility: visible;
+}
+
+
+.logo{
+	flex:1;
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	width:70px;
+	vertical-align: middle;
+}
+.logo span{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: consolas;
+}
+.akun{
+	justify-content: flex-end;
+	margin-right: 20px;
+}
+nav{
+	background: blue;
+	padding:0 10px;
+}
+
+nav .container{
+	display:flex;
+	align-items: center;
+}
+nav .container a{
+	padding: 15px;
+	color:white;
+}
+.slide{
+	width:100%;
+}
+.partai{
+	position: relative;
+}
+.partai	.container{
+	margin-top: -120px;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+}
+.choice{
+
+}
+span.choice{
+	background:orange;
+	padding:30px 10px;
+	margin:0 auto;
+	width: 80%;
+	color:white;
+	font-size:24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.partai_pem{
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	width:90%;
+	margin:0 auto;
+}
+.partai_pem	li{
+	padding:0px;
+	padding:10px;
+	margin:0;
+	height:200px;
+	color:white;
+	background:linear-gradient(to right, blue);
+}
+.info-pemilu{
+	background: orange;
+	padding:30px 10px;
+	font-size:16px;
+	color:white;
+	text-transform: uppercase;
+	width: 80%;
+	margin:25px auto 0;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+section.search{
+	margin:60px 0;
+	padding:0 10px;
+}
+section.search .container{
+	display: grid;
+	grid-template-rows: : repeat(2, auto);
+}	
+
+.search .container div{
+	margin:0 auto 50px;
+	text-align:center;
+
+
+}
+.search .container div span{
+	font-size:24px;
+	text-transform: lowercase;
+}
+.search .container div h2{
+	font-size:2em;
+	text-transform: uppercase;
+}
+.search	.container	form{
+	display: flex;
+	align-items: center;
+}
+.search	.container	form input[type="text"]{
+	padding:15px 10px;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:5px 0 05px;
+	width:100%;
+}
+.search	.container	form input[type="submit"]{
+	padding:15px 10px;
+	border:1px solid orange;
+	background:orange;
+	border-radius:0 5px 5px 0;
+}
+
+.card{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+}
+.card-partai{
+	padding:20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin:20px;
+	display: grid;
+	grid-template-rows:repeat(2, auto);
+}
+.card-partai img{
+	width:100%;
+}
+.card-partai span{
+	display: block;
+	padding:10px;
+	text-align:center;
+}
+.action{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+}
+.action a{
+	margin:10px;
+}
+.article{
+	padding: 0 10px;
+}
+.article .container{
+	display: grid;
+	grid-template-columns: 70% auto;
+}
+.teratas{
+	border:1px solid rgba(0,0,0,0.1);
+}
+.teratas h3{
+	text-align: center;
+	font-size:24px;
+	display: block;
+	padding: 20px;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.teratas ul li{
+	width:100%;
+	display: grid;
+	grid-template-columns:20% auto;
+	padding:10px;
+	align-items: center;
+	text-transform: lowercase;
+	background: #f0f0f0;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.teratas ul li img{
+	margin-right: 10px;
+}
+.main{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+}
+.main li{
+	padding:10px;
+	margin:20px;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	align-items: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.main li img{
+	width:100px;
+}
+
+.foot_top{
+	padding:20px 10px;
+	background:#101077;
+}
+.foot_top .container{
+	display: grid;
+	grid-template-columns: repeat(4, auto);	
+}
+
+.foot_top .container ul h2{
+	font-size: 20px;
+	color:white;
+}
+.foot_top .container ul li{
+	padding:5px 0;
+	font-weight: normal;
+	color:white;
+}
+footer{
+	background:#090958;
+	padding:10px;
+	margin-top: -10px;
+}
+footer .container p{
+		text-align:left;
+		color:white;
+		font-size:16px;
+}
+
+.table-list{
+	width:100%;
+	border-collapse: collapse;
+}
+tr.baris-title{
+	padding: 20px;
+	width:100%;
+	background:#999;
+	color:white;
+}
+
+tr.baris-title, th,td{
+	padding: 10px;
+}
+
+.kiri{text-align: left;}.kanan{text-align: right;}.tengah{text-align: center;}
+.no{width: 50px; text-align:center;}
+
+.add-form{
+	overflow: hidden;
+	margin:20px;
+	padding: 10px;
+}
+.right{float:right;}
+.btn-act{
+	padding: 8px 15px;
+	border-radius:5px;
+	background:orange;
+	color:white;
+}

@@ -1,0 +1,46 @@
+html,body {
+	margin: 0;
+	font-family: Ebrima;
+}
+ul {
+	list-style-type: none;
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: #A60D0D;
+}
+li a {
+	letter-spacing: 5px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 14px 16px;
+}
+.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	z-index: 1;
+	color: black;
+	position: absolute;
+	background-color: #121212;
+	transition: 0.3s;
+}
+.dropdown-content a {
+	text-decoration: none;
+	color:white;
+	padding: 14px 16px;
+	display: block;
+	overflow: hidden;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #FF0000;
+}

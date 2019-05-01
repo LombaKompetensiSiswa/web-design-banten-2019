@@ -1,0 +1,35 @@
+.head img{
+	width: 50px;
+	height: 50px;
+	padding: 10px 10px;
+	float: top;
+}
+
+.head {
+	background: #006400;
+	width: 96%;
+	height :10%;
+}
+
+.dashboard {
+	background: #32CD32;
+	float: left;
+	height: 100%;
+	width: 22%;
+}
+
+.dashboard ul li{
+	display: block;
+	padding : 10px 10px;
+
+}
+
+.dashboard ul li a{
+	color : white;
+	text-transform: uppercase;
+}
+
+.dashboard ul li a:hover{
+	background: #006400;
+	margin: 5px 10px;
+}

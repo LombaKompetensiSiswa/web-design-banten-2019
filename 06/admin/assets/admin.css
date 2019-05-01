@@ -1,0 +1,196 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: Ebrima;
+}
+ul {
+	list-style-type: none;
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color:#208744;
+}
+li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding: 14px 16px;
+	margin-left: 15px;
+}
+.dropdown {
+	display: inline-block;
+	text-align: center;
+}
+.dropdown-content {
+	display: none;
+	z-index: 1;
+	color: black;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	background-color: #3AC269;
+	transition: 0.3s;
+}
+.dropdown-content a {
+	text-decoration: none;
+	color:white;
+	margin: 0;
+	padding: 14px 16px;
+	display: block;
+	overflow: hidden;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.dropdown-content a:hover {
+	background-color: #57D984;
+}
+.content-index {
+	margin-top: 0;
+	margin-left: 15%;
+
+}
+.mt-5 {
+	margin-top: 5%;
+}
+.text-title {
+	letter-spacing: 5px;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+.card-login{
+	padding: 5px;
+	width: 250px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	background-color: #8EE34D;
+
+}
+.card-login img {
+	height:250px;
+}
+.card-login label {
+	color:black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+input[type=text]{
+	border-radius: 5px;
+	border:2px solid #C7F5A4;
+	padding: 10px;
+}
+input[type=password]{
+	border-radius: 5px;
+	border:2px solid #C7F5A4;
+	padding: 10px;
+}
+input[type=email]{
+	border-radius: 5px;
+	border:2px solid #C7F5A4;
+	padding: 10px;
+}
+input[type=number]{
+	border-radius: 5px;
+	border:2px solid black;
+	padding: 10px;
+}
+
+.login-btn {
+	padding: 15px;
+	color:white;
+	background-color: #548D30;
+	border: none;
+	letter-spacing: 5px;
+	font-size: 14px;
+	transition: 0.3s;
+	text-transform: uppercase;
+}
+.login-btn:hover {
+	padding: 15px;
+	color:#548D30;
+	background-color: transparent;
+	border: 2px solid #548D30;
+	letter-spacing: 5px;
+	font-size: 14px;
+}
+.btn-detail {
+
+}
+.card {
+	padding: 5px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	max-width: 300px;
+	border-radius: 5px;
+
+}
+.card img {
+	height:250px;
+}
+.card a {
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: #121212;
+ 	padding: 15px;
+ 	width: 100%;
+ 	position: relative;
+ 	transition: 0.3s;
+ 	border: 2px solid #121212;
+}
+.card a:hover {
+	background-color:transparent; 
+	color: black;
+	border: 2px solid black;
+}
+.card-input label {
+	color:black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+label {
+	color:black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.btn-edit {
+	color:white;
+	background-color: #308D8A;
+	padding:14px ;
+	border: none;
+	border-radius: 5px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.btn-edit:hover {
+	color:#308D8A;
+	background-color: transparent;
+	border:2px solid #308D8A;
+}
+.btn-delete {
+	color:white;
+	background-color: #8D3030;
+	padding:14px ;
+	border: none;
+	border-radius: 5px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.btn-delete:hover {
+	color:#308D8A;
+	background-color: transparent;
+	border:2px solid #308D8A;
+}
+tr, td {
+	padding-top: 15px;
+}

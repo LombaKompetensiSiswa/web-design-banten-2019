@@ -1,0 +1,69 @@
+
+.kepala img{
+	width: 99%;
+}
+
+.nav{
+	width: 97%;
+	padding: 15px;
+	background: blue;
+}
+
+.nav ul{
+	padding: 2px 2px;
+	padding-left: 10px;
+}
+
+.nav ul li{
+	float: left;
+	color: white;
+	text-transform: uppercase;
+	font-size: 17px;
+	display: block;
+	padding-right: 15px;
+}
+
+.nav ul li a{
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.nav ul li a:hover {
+	background: white;
+	color: blue;
+	text-decoration: underline;
+
+}
+
+.konten {
+	width: 60%;
+	float: left;
+	margin-top: 20px;
+}
+
+.konten img{
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	width: 58%;
+}
+
+.sidebar {
+	background: black;
+	width: 30%;
+	height: 900px;
+	float : right;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.sidebar p{
+	color: white;
+	float: left;
+
+}
+
+hr {
+	padding-right: 5px;
+}

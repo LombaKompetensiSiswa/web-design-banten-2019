@@ -1,0 +1,295 @@
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+html, body
+{
+    width:100%;
+    height:100%;
+}
+body
+{
+    font-family:arial;
+}
+.wrapper
+{
+    width:100%;
+    height:5000px;
+    overflow:hidden;
+}
+.navbar
+{
+    background-color:#34495e;
+    width:100%;
+    height:80px;
+}
+nav
+{
+    display:flex;
+    width:100%;
+    height:80px;
+    justify-content:space-around;
+    align-items:center;
+}
+.logo
+{
+    font-size:30px;
+    font-weight:bold;
+    color:#ecf0f1;
+    letter-spacing:2px;
+}
+.nav-links
+{
+    display:flex;
+    justify-content:space-around;
+    width:40%;
+    align-items:center;
+}
+.nav-links li
+{
+    list-style:none;
+}
+.nav-links a
+{
+    text-decoration:none;
+    color:#ecf0f1;
+    font-size:18px;
+    letter-spacing:1.5px;
+}
+.bars
+{
+    cursor:pointer;
+    display:none;
+}
+.bars div
+{
+    width:25px;
+    height:3px;
+    margin-bottom:5px;
+    background-color:#ecf0f1;
+}
+.slideshow
+{
+    background-color:#dcdcdc;
+    width:100%;
+    height:50vh;
+}
+.slider
+{
+    display:block;
+    width:100%;
+    height:50vh;
+    background-color:#ecf0f1;
+    position:absolute;
+    overflow:hidden;
+}
+.slider > *
+{
+    display:block;
+    width:100%;
+    height:100%;
+    background-color:#dcdcdc;
+    position:absolute;
+    animation:slide 12s infinite;
+    overflow:hidden;
+}
+.slider p 
+{
+    text-align:center;
+    padding-top:130px;
+    font-size:70px;
+    letter-spacing:1.5px;
+}
+.slide:nth-child(1)
+{
+    left:0%;
+    animation-delay:-1s;
+    background-image:url('images/bantenlogo.png');
+    background-size:cover;
+    background-position:center;
+}
+.slide:nth-child(2)
+{
+    animation-delay:2s;
+    background-image:url('images/logo-bank-indonesia.jpg');
+    background-size:cover;
+    background-position:center;
+}
+.slide:nth-child(3)
+{
+    animation-delay:5s;
+    background-image:url('images/people.jpg');
+    background-size:cover;
+    background-position:center;
+}
+.slide:nth-child(4)
+{
+    left:0%;
+    animation-delay:8s;
+    background-image:url("images/suararakyat.png");
+    background-size:cover;
+    background-position:center;
+}
+@keyframes slide
+{
+    0% {left: 100%; width:100%}
+    5% {left: 0%}
+    25% {left: 0%}
+    30% {left: -100%; width: 100%}
+    30.0001% {left: -100%; width: 0%}
+    100% {left: -100%; width: 0%}
+}
+.box-posisi
+{
+    margin:0 auto;
+    width:1300px;
+    margin-top:30px;
+    overflow: hidden;
+}
+.box-tps h2
+{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.box-1
+{
+    margin-left:20px;
+    margin-right:20px;
+    overflow: hidden;
+    margin-bottom:50px;
+}
+.gambar
+{
+    float: left;
+}
+.gambar img
+{
+    width:350px;
+    height:300px;
+}
+.table-informasi
+{
+    float:left;
+    margin-left:25px;
+    width:850px;
+}
+.table-informasi h3
+{
+    text-align:center;
+    padding-bottom:20px;
+}
+.table-informasi p
+{
+    text-align:center;
+    padding-bottom:20px;
+}
+.table
+{
+    margin-left:20px;
+    width:850px;
+    float: left;
+}
+.box-partai
+{
+    margin-left:20px;
+    margin-right:20px;
+}
+.partai
+{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size:30px;
+    font-weight:bold;
+}
+.gambar-1 img
+{
+    width:200px;
+}
+.list-partai
+{
+    width:200px;
+    float: left;
+    margin-left:43px;
+}
+.nama-partai
+{
+    text-align:center;
+    font-weight:bold;
+    padding-top:30px;
+    padding-bottom:30px;
+    line-height:30px;
+}
+.box-posisi h2
+{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.gambar-grafik img
+{
+    width:100%;
+    height:500px;
+    margin-bottom:50px;
+}
+.perhitungan
+{
+    margin-top:30px;
+    margin-left:30px;
+    margin-right:30px;
+    display:block;
+    margin-bottom:50px;
+}
+.footer
+{
+    background-color:#34495e;
+    width:100%;
+    height:200px;
+    text-align:center;
+    line-height:200px;
+    color:#ecf0f1;
+    letter-spacing:2px;
+}
+@media screen and (max-width:768px)
+{
+    body
+    {
+        overflow-x:hidden;
+    }
+    .nav-links
+    {
+        position:absolute;
+        right:0;
+        top:12vh;
+        background-color:#34495e;
+        width:40%;
+        height:92vh;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        transform:translateX(100%);
+        transition:all 0.5s ease-in;
+    }
+    .bars
+    {
+        display:inline-block;
+    }
+}
+.nav-active
+{
+    transform:translateX(0%);
+}
+@keyframes navLinksFade
+{
+    from{
+        opacity:1;
+        transform:translateX(50px);
+    }to{
+        opacity:0;
+        transform:translateX(0px);
+    }
+}

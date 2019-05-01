@@ -1,0 +1,51 @@
+body{
+	padding: 0;
+	margin:0;
+	font-family: calibri;
+	background-image: url(../../image/vote.png);
+}
+#kotak{
+	width: 391px;
+    height: 340px;
+	background-color: rgb(225,225,225,0.8);
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+#kotak p{
+	color: #000;
+	font-size: 24px;
+	margin-left: 100px;
+	padding-top: 10px;
+}
+.form-control{
+	width: 300px;
+	height: 20px;
+	margin-left: 40px;
+	border: none;
+	padding: 10px;
+	border:none;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+}
+.btn{
+	width: 320px;
+    height: 36px;
+    margin-left: 40px;
+    border: none;
+    margin-top: 19px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-primary{
+	background-color: #4285f4;
+	color: #ffff;
+}
+.btn-primary:hover{
+	background-color: #93b2e6;
+	color: #ffff;
+}
+#kotak label{
+	margin-left: 40px;
+	color: #000;
+}

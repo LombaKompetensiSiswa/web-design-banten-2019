@@ -1,0 +1,242 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+}
+#navbar{
+	width: 100%;
+	height: 50px;
+	background-color: #003961;
+	position: fixed;
+	z-index: 3;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 5px 0 rgba(0, 0, 0, 0.12),
+                    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+#navbar ul{
+	list-style-type: none;
+	margin-top: 3px;
+	margin-left: 300px;
+}
+#navbar li a{
+	text-decoration: none;
+	color: #fff;
+	float: left;
+	padding: 10px;
+}
+#jumbrotron .slide{
+	width: 103%;
+	height: 500px;
+	background-image: url(../image/pemilihan.jpeg);
+	background-size: cover;
+	animation: 6s slide infinite;
+	margin:0;
+
+
+}
+@keyFrames slide{
+	25%{
+		background-image: url(../image/pemilihan3.jpg);
+	}
+	75%{
+		opacity: 1;
+	}
+}
+#informasi{
+	width: 160%;
+	background-color: #e1e2e3;
+	position: absolute;
+}
+#informasi .row{
+	width: 429px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+#informasi .row h5{
+	font-size: 24px;
+	margin-top: -10px;
+}
+#informasi .row:nth-child(even) h5{
+	color: #fff;
+}
+#informasi .row:nth-child(even) p{
+	color: #f1f1f1;
+}
+#informasi .abu{
+	background-color: #e1e2e3;
+}
+#informasi .biru{
+	background-color: #003961;
+}
+#informasi .abu{
+	background-color: #e1e2e3;
+}
+#berita .img1{
+	position: absolute;
+	width: 100px;
+    height: 100px;
+    margin-left: 205px;
+    margin-top: 186px;
+    z-index: 3;
+}
+#berita .img2{
+	position: absolute;
+	width: 100px;
+    height: 100px;
+    margin-left: 1052px;
+    margin-top: 186px;
+    z-index: 3;
+}
+#berita .kotak3{
+	background-color: #ea4335;
+	border-radius: 5px;
+	width: 800px;
+	position: absolute;
+	margin-top: 180px;
+	z-index: 1;
+	margin-left: 280px;
+	height: 57px;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	z-index: 2;
+}
+#berita .kotak4{
+	background-color: #ffff;
+	border-radius: 5px;
+	width: 800px;
+	position: absolute;
+	margin-top: 231px;
+	z-index: 1;
+	margin-left: 280px;
+	height: 57px;
+	color: #ea4335;
+	text-align: center;
+	font-size: 25px;
+	z-index: 2;
+}
+#statistik{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	margin-top: 190px;
+	padding-top: 20px;
+	z-index: 0;
+	padding-top: 130px;
+    margin-left: 10px;
+    margin-left: 22px;
+}
+#statistik{
+	background-size: cover;
+	background-image: url(../image/pemilihan2.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+
+}
+#statistik #kotak2{
+	border: 5px solid #fff;
+	height: 300px;
+	width: 1000px;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+#statistik .row{
+	width: 300px;
+	float: left;
+	margin-left: 25px;
+}
+#statistik .row hr{
+	margin-top: -26px;
+	border: 2px solid #fff;
+	width: 200px;
+}
+#statistik .row h5{
+	margin-top: -5px;
+	font-size: 25px;
+}
+#footer1{
+	width: 104%;
+	height: 162px;
+	background-color: #2d6a94;
+	margin-top: 719px;
+	z-index: 1;
+}
+#footer2{
+	width: 100%;
+	height: 150px;
+	background-color: #003961;
+	margin-top: 690px;
+	margin: 0;
+	color: #fff;
+	padding: 10px 100px;
+	font-size: 20px;
+}
+#footer2 hr{
+	width: 300px;
+	margin-left: -2px;
+}
+#footer2 .fb{
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	padding: 8px 8px;
+	position: absolute;
+}
+#footer2 .fb:hover{
+	width: 60px;
+	height: 60px;
+}
+#footer2 .twitter{
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	padding: 8px 8px;
+	position: absolute;
+	margin-left: 65px;
+}
+#footer2 .twitter:hover{
+	width: 60px;
+	height: 60px;
+}
+#footer2 .wa{
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	padding: 8px 8px;
+	position: absolute;
+	margin-left: 129px;
+}
+#footer2 .wa:hover{
+	width: 60px;
+	height: 60px;
+}
+#footer2 .youtube{
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	padding: 8px 8px;
+	position: absolute;
+	margin-left: 193px;
+}
+#footer2 .youtube:hover{
+	width: 60px;
+	height: 60px;
+}
+#footer2 .moto{
+	margin-left: 800px;
+	margin-top: -44px;
+	font-weight: bold;
+}
+#footer2 h6{
+	font-weight: normal;
+}
+#footer2 h5{
+	margin-top: -25px;
+	font-weight: normal;
+}

@@ -1,0 +1,217 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Ebrima;
+	scroll-behavior: smooth;
+}
+.mt-5 {
+	margin-top: 5%;
+}
+nav {
+	text-align:center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	text-align:center;
+	overflow: auto;
+	width: 100%;
+	padding: 14px 16px;
+	background-color: #121212;
+
+}
+li {
+	display: inline-block;
+	height: 100%;
+}
+li a {
+	display: inline-block;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 5px;
+	padding: 14px 16px;
+	transition:0.3s;
+
+
+}
+li a:hover {
+	background-color: #121212;
+}
+.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	z-index: 1;
+	color: black;
+	position: absolute;
+	background-color: #121212;
+	transition: 0.3s;
+}
+.dropdown-content a {
+	text-decoration: none;
+	color:white;
+	padding: 14px 16px;
+	display: block;
+	overflow: hidden;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #FF0000;
+}
+.btn-white {
+	background-color: white;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	border: 2px solid white;
+	padding: 15px;
+	text-decoration: none;
+	transition: 0.3s
+}
+.btn-white:hover {
+	background-color: transparent;
+	color:white;
+	border: 2px solid white;
+}
+@media screen and (max-width: 600px){
+	li  {
+		display: block;
+		float: none;
+	}
+	.btn-white {
+		padding: 5px;
+	}
+}
+.hero-image {
+	background: url('../images/suasanatps.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	margin: 0;
+	padding-top:5px;
+}
+.hero-caption {
+	color: white;
+	text-align: center;
+	top: 90%;
+	left: 50%;
+	margin-top: 10%;
+}
+.hero-caption h1{
+	font-size: 40px;
+}
+@media screen and (max-width: 600px){
+	.hero-caption {
+		margin-top: 100px 20px;
+		font-size: 20px;
+	}
+	.hero-caption h1{
+		font-size: 20px;
+	}
+}
+.text-title {
+	letter-spacing: 5px;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+.text-bold{
+	font-weight: bold;
+}
+.card {
+	padding: 5px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	max-width: 300px;
+	border-radius: 5px;
+
+}
+.card img {
+	height:250px;
+}
+tr,td {
+	padding: 25px;
+}
+.card a {
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: #121212;
+ 	padding: 15px;
+ 	width: 100%;
+ 	position: relative;
+ 	transition: 0.3s;
+ 	border: 2px solid #121212;
+}
+.card a:hover {
+	background-color:transparent; 
+	color: black;
+	border: 2px solid black;
+}
+.text-center {
+	text-align: center;
+}
+input[type=text]{
+	border-radius: 5px;
+	border:2px solid black;
+	padding: 10px;
+}
+input[type=number]{
+	border-radius: 5px;
+	border:2px solid black;
+	padding: 10px;
+}
+.btn-submit {
+	background-color: #121212;
+	color: white;
+	padding: 15px;
+	border: none;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	transition: 0.3s;
+}
+.btn-submit:hover {
+	background-color: white;
+	color: #121212;
+	padding: 15px;
+	border: 2px solid #121212;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.card-news {
+	padding: 5px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	max-width: 300px;
+	border-radius: 5px;
+}
+.card-news img {
+	height:250px;
+}
+.news-link {
+	text-decoration: none;
+	letter-spacing: 5px;
+	color: #121212;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.news-link:hover {
+	color: #4A4646;
+
+}
+.wrapper {
+	width: 80%;
+	margin: 50px;
+}
+.text-justify {
+	text-align:justify;
+}
